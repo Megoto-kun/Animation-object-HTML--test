@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+main{
+    position: relative;
+    background-color: gray;
+}
+.animation{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.A{
+left: 0;
+background-color: rgb(211,32,65);
+animation-name: A;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+
+}
+@keyframes A{
+    0%{
+        left: 0;
+    }
+    
+    100%{
+        left: 95%;
+    }
+
+}
+.B{ 
+    right: 0;
+    margin-top: 100px;
+background-color: rgb(2,24,43);
+animation-name: B;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-delay:4s ;
+}
+@keyframes B{
+    0%{
+        right: 0;
+    }
+    
+    100%{
+        right: 95%;
+    }
+
+}
+
+.C{
+    left: 0;
+    margin-top: 200px;
+    background-color: rgb(2,88,145);
+    animation-name: C;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-delay:8s ;
+}
+@keyframes C{
+    0%{
+        left: 0;
+    }
+  
+  
+    100%{
+        left: 95%;
+    }
+
+}
+.D{
+    right: 0;
+    margin-top: 300px;
+    background-color: rgb(2,151,246);
+    animation-name: D;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation-delay:12s ;
+}
+@keyframes D{
+    0%{
+        right: 0;
+    }
+   
+    100%{
+        right: 95%;
+    }
+
+}
+.E{
+    animation-delay:16s ;
+    left: 0;
+    margin-top: 400px;
+    background-color: rgb(68,143,163);
+    animation-name: E;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+@keyframes E{
+    0%{
+        left: 0;
+    }
+   
+    100%{
+        left: 95%;
+    }
+
+}
+.F{
+    animation-delay:20s ;
+    right: 0;
+    margin-top: 500px;
+    background-color: rgb(104,197,219);
+    animation-name: F;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+}
+@keyframes F{
+    0%{
+        right: 0;
+    }
+    100% {
+        right: 95%;
+    }
+
+}
